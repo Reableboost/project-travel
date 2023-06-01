@@ -6,8 +6,6 @@
   align-items: center;
   padding-top: 28px;
   width: 92.5%;
-  border-style: dashed;
-  border-color: black;
 }
 
 @media screen and (max-width: 1024px) {
