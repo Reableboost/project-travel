@@ -7,13 +7,13 @@
   color: white;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .places {
     max-width: 928px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .places {
     max-width: 720px;
     gap: 73px;
@@ -21,7 +21,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .places {
     max-width: 100%;
     gap: 50px;

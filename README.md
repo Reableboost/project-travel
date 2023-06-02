@@ -17,6 +17,8 @@
 * Flex  
 * BEM
 
+## Ссылка на проект.
+https://reableboost.github.io/russian-travel-bootcamp/
 
 
 

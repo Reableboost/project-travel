@@ -2,17 +2,27 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: white;
-  background-color: rgba(0,0,0,0.3);
+  background-color: rgba(42,44,47,0.3);
+  min-height: inherit;
   width: 100%;
   height: 100%;
   z-index: 1;
+  gap: 32px;
+  transition: background-color 0.5s linear;
 }
 
+@media (any-hover: hover) {
 .cover__overlay:hover {
-  background-color: rgba(0,0,0,0.8);
-  transition-property: background-color;
-  transition-duration: 0.2s;
-  transition-timing-function: linear;
+  background-color: rgba(42,44,47,0.8);
+  transition: background-color 0.2s linear;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    gap: 16px;
+  }
 }
