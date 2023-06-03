@@ -6,11 +6,19 @@
   font-size: 16px;
   line-height: 18px;
   font-weight: 400;
+  transition: opacity 0.5s linear;
 }
 
 .footer__link:last-child {
   margin: 0;
 }
+
+@media (any-hover: hover) {
+  .footer__link:hover {
+  opacity: 0.8;
+  transition: opacity 0.2s linear;
+  }
+  }
 
 @media screen and (max-width: 767px) {
   .footer__link {
@@ -19,5 +27,4 @@
     line-height: 24px;
   }
 }
-
 
