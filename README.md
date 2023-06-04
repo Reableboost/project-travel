@@ -18,7 +18,7 @@
 * BEM
 
 ## Ссылка на проект.
-https://reableboost.github.io/russian-travel-bootcamp/
+https://reableboost.github.io/project-travel/
 
 
 
